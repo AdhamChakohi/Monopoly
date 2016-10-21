@@ -156,7 +156,7 @@ while True:
                         print('you have to pay',str(tempR),' to',board[i][2],'for rent')
                         print('you have',str(players[user][2]),'left in your bank account')
                 ## this is for landing on the taxes
-                elif int(board[i][3]) == 0and board[i][2] != '':
+                elif int(board[i][3]) == 0 and board[i][2] != '':
                     players[user][2] -= int(board[i][4])
                     print('you have stopped by',board[i][0],'and have to pay',str(int(board[i][4])),'in rent')
                     print('you have',str(players[user][2]),'left in your bank account')
